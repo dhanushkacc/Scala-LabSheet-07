@@ -1,0 +1,543 @@
+2023.08.06 20:18:51 INFO  Started: Metals version 1.0.0 in folders 'A:\UCSC\2nd year\Funtional Programing\tutorial_07' for client Visual Studio Code 1.80.2.
+Aug 06, 2023 8:18:51 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 06, 2023 8:18:51 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 06, 2023 8:18:51 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 06, 2023 8:18:52 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:A:\UCSC\2nd year\Funtional Programing\tutorial_07\.metals\metals (H2 2.1)
+Aug 06, 2023 8:18:52 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Aug 06, 2023 8:18:52 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.019s)
+Aug 06, 2023 8:18:52 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Aug 06, 2023 8:18:52 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Aug 06, 2023 8:18:52 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Aug 06, 2023 8:18:52 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Aug 06, 2023 8:18:52 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Aug 06, 2023 8:18:52 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Aug 06, 2023 8:18:52 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.044s)
+2023.08.06 20:18:52 INFO  time: initialize in 0.77s
+2023.08.06 20:18:55 WARN  no build target for: A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.06 20:18:55 INFO  no build target found for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.06 20:18:57 INFO  time: code lens generation in 4.61s
+2023.08.06 20:18:57 INFO  time: code lens generation in 3.05s
+2023.08.06 20:19:00 WARN  no build target for: A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.06 20:19:17 WARN  no build target for: A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.06 20:19:24 WARN  no build target for: A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.06 20:19:32 WARN  no build target for: A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.06 20:19:35 WARN  no build target for: A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.06 20:19:37 WARN  no build target for: A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.06 20:19:37 WARN  Using indexes to guess the definition of Main
+2023.08.06 20:19:38 WARN  no build target for: A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.06 20:19:40 INFO  Running List(C:\Users\DILSHAN\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, A:\UCSC\2nd year\Funtional Programing\tutorial_07)
+2023.08.06 20:19:40 INFO  Attempting to connect to the build server...
+2023.08.06 20:19:40 INFO  Running BSP server List(C:\Users\DILSHAN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, A:\UCSC\2nd year\Funtional Programing\tutorial_07\.scala-build\ide-options-v2.json, A:\UCSC\2nd year\Funtional Programing\tutorial_07)
+2023.08.06 20:19:40 INFO  Attempting to connect to the build server...
+2023.08.06 20:19:40 INFO  Running BSP server List(C:\Users\DILSHAN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, A:\UCSC\2nd year\Funtional Programing\tutorial_07\.scala-build\ide-options-v2.json, A:\UCSC\2nd year\Funtional Programing\tutorial_07)
+2023.08.06 20:19:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at A:\UCSC\2nd year\Funtional Programing\tutorial_07\.metals\bsp.trace.json or C:\Users\DILSHAN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.06 20:19:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at A:\UCSC\2nd year\Funtional Programing\tutorial_07\.metals\bsp.trace.json or C:\Users\DILSHAN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.06 20:19:42 INFO  time: Connected to build server in 2.24s
+2023.08.06 20:19:42 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.06 20:19:42 INFO  time: Connected to build server in 2.28s
+2023.08.06 20:19:42 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.06 20:19:42 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:19:42 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 0.64s)
+2023.08.06 20:19:42 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:19:42 INFO  time: compiled project_bd2c96d2de in 0.92s
+2023.08.06 20:19:44 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 1.687s)
+2023.08.06 20:19:44 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:19:44 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:19:44 INFO  time: compiled project_bd2c96d2de in 0.23s
+Aug 06, 2023 8:19:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 96
+2023.08.06 20:19:44 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:19:44 INFO  time: compiled project_bd2c96d2de in 0.15s
+2023.08.06 20:19:45 INFO  time: indexed workspace in 2.35s
+2023.08.06 20:19:45 INFO  time: indexed workspace in 2.81s
+2023.08.06 20:19:45 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:19:45 INFO  time: compiled project_bd2c96d2de in 0.46s
+2023.08.06 20:19:46 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:19:46 INFO  time: compiled project_bd2c96d2de in 0.4s
+2023.08.06 20:19:46 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:19:46 INFO  time: compiled project_bd2c96d2de in 0.14s
+2023.08.06 20:19:46 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:19:46 INFO  time: compiled project_bd2c96d2de in 0.16s
+2023.08.06 20:19:49 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:19:51 INFO  time: compiled project_bd2c96d2de in 1.32s
+2023.08.06 20:19:51 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:19:51 INFO  time: compiled project_bd2c96d2de in 0.33s
+2023.08.06 20:19:59 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.06 20:19:59 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:19:59 INFO  time: compiled project_bd2c96d2de in 0.44s
+2023.08.06 20:20:26 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:20:26 INFO  time: compiled project_bd2c96d2de in 0.17s
+2023.08.06 20:20:28 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:20:28 INFO  time: compiled project_bd2c96d2de in 90ms
+2023.08.06 20:20:34 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:20:34 INFO  time: compiled project_bd2c96d2de in 0.33s
+2023.08.06 20:20:46 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:20:46 INFO  time: compiled project_bd2c96d2de in 0.12s
+Aug 06, 2023 8:20:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 244
+2023.08.06 20:20:51 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:20:51 INFO  time: compiled project_bd2c96d2de in 0.32s
+2023.08.06 20:21:27 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:21:27 INFO  time: compiled project_bd2c96d2de in 0.34s
+Aug 06, 2023 8:21:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 304
+2023.08.06 20:34:51 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:34:51 INFO  time: compiled project_bd2c96d2de in 0.16s
+Aug 06, 2023 8:34:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 338
+2023.08.06 20:34:58 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:34:58 INFO  time: compiled project_bd2c96d2de in 0.33s
+2023.08.06 20:35:03 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:35:03 INFO  time: compiled project_bd2c96d2de in 0.43s
+2023.08.06 20:35:10 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:35:10 INFO  time: compiled project_bd2c96d2de in 0.48s
+2023.08.06 20:35:13 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:35:13 INFO  time: compiled project_bd2c96d2de in 0.24s
+2023.08.06 20:35:59 INFO  Disconnecting from scala-cli session...
+2023.08.06 20:35:59 INFO  Shut down connection with build server.
+2023.08.06 20:35:59 INFO  Attempting to connect to the build server...
+2023.08.06 20:35:59 INFO  Running BSP server List(C:\Users\DILSHAN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, A:\UCSC\2nd year\Funtional Programing\tutorial_07\.scala-build\ide-options-v2.json, A:\UCSC\2nd year\Funtional Programing\tutorial_07)
+2023.08.06 20:35:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at A:\UCSC\2nd year\Funtional Programing\tutorial_07\.metals\bsp.trace.json or C:\Users\DILSHAN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.06 20:35:59 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:35:59 INFO  time: compiled project_bd2c96d2de in 62ms
+2023.08.06 20:36:01 INFO  time: Connected to build server in 2.11s
+2023.08.06 20:36:01 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.06 20:36:01 INFO  time: indexed workspace in 0.22s
+2023.08.06 20:36:02 INFO  Refreshed build after change
+2023.08.06 20:36:05 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:36:05 INFO  time: compiled project_bd2c96d2de in 47ms
+2023.08.06 20:36:11 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:36:11 INFO  time: compiled project_bd2c96d2de in 40ms
+2023.08.06 20:36:13 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:36:13 INFO  time: compiled project_bd2c96d2de in 43ms
+2023.08.06 20:36:19 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:36:19 INFO  time: compiled project_bd2c96d2de in 48ms
+2023.08.06 20:36:21 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:36:21 INFO  time: compiled project_bd2c96d2de in 47ms
+2023.08.06 20:36:27 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.06 20:36:27 INFO  time: compiled project_bd2c96d2de in 0.26s
+2023.08.06 20:36:33 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:36:33 INFO  time: compiled project_bd2c96d2de in 80ms
+2023.08.06 20:36:33 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:36:33 INFO  time: compiled project_bd2c96d2de in 66ms
+2023.08.06 20:36:41 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:36:41 INFO  time: compiled project_bd2c96d2de in 71ms
+2023.08.06 20:40:45 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:40:45 INFO  time: compiled project_bd2c96d2de in 0.11s
+2023.08.06 20:40:48 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:40:48 INFO  time: compiled project_bd2c96d2de in 0.1s
+2023.08.06 20:40:49 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:40:49 INFO  time: compiled project_bd2c96d2de in 0.8s
+2023.08.06 20:40:52 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:40:52 INFO  time: compiled project_bd2c96d2de in 92ms
+2023.08.06 20:40:55 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:40:55 INFO  time: compiled project_bd2c96d2de in 0.12s
+2023.08.06 20:40:58 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:40:58 ERROR scalafmt: A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q2.scala:16: error: [dialect scala3] } expected but end of file found
+
+^
+2023.08.06 20:40:58 INFO  time: compiled project_bd2c96d2de in 0.4s
+2023.08.06 20:40:58 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:40:59 INFO  time: compiled project_bd2c96d2de in 0.44s
+2023.08.06 20:41:01 ERROR scalafmt: A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q2.scala:16: error: [dialect scala3] } expected but end of file found
+
+^
+2023.08.06 20:41:01 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:41:01 INFO  time: compiled project_bd2c96d2de in 0.35s
+2023.08.06 20:41:03 ERROR scalafmt: A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q2.scala:16: error: [dialect scala3] } expected but end of file found
+
+^
+2023.08.06 20:41:03 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:41:03 INFO  time: compiled project_bd2c96d2de in 0.27s
+2023.08.06 20:41:18 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:41:18 INFO  time: compiled project_bd2c96d2de in 79ms
+2023.08.06 20:41:18 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:41:18 INFO  time: compiled project_bd2c96d2de in 73ms
+2023.08.06 20:41:20 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:41:20 INFO  time: compiled project_bd2c96d2de in 63ms
+2023.08.06 20:42:14 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:42:14 INFO  time: compiled project_bd2c96d2de in 0.16s
+2023.08.06 20:42:14 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:42:14 INFO  time: compiled project_bd2c96d2de in 83ms
+2023.08.06 20:42:20 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:42:20 INFO  time: compiled project_bd2c96d2de in 72ms
+2023.08.06 20:42:41 WARN  no build target for: A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1 copy.scala
+2023.08.06 20:42:42 INFO  Disconnecting from scala-cli session...
+2023.08.06 20:42:42 INFO  Disconnecting from scala-cli session...
+2023.08.06 20:42:42 INFO  Attempting to connect to the build server...
+2023.08.06 20:42:42 INFO  Shut down connection with build server.
+2023.08.06 20:42:42 INFO  Attempting to connect to the build server...
+2023.08.06 20:42:42 INFO  Running BSP server List(C:\Users\DILSHAN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, A:\UCSC\2nd year\Funtional Programing\tutorial_07\.scala-build\ide-options-v2.json, A:\UCSC\2nd year\Funtional Programing\tutorial_07)
+2023.08.06 20:42:42 INFO  Running BSP server List(C:\Users\DILSHAN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, A:\UCSC\2nd year\Funtional Programing\tutorial_07\.scala-build\ide-options-v2.json, A:\UCSC\2nd year\Funtional Programing\tutorial_07)
+2023.08.06 20:42:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at A:\UCSC\2nd year\Funtional Programing\tutorial_07\.metals\bsp.trace.json or C:\Users\DILSHAN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.06 20:42:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at A:\UCSC\2nd year\Funtional Programing\tutorial_07\.metals\bsp.trace.json or C:\Users\DILSHAN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.06 20:42:42 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.06 20:42:42 INFO  time: compiled project_bd2c96d2de in 0.12s
+2023.08.06 20:42:42 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.06 20:42:42 INFO  time: compiled project_bd2c96d2de in 99ms
+2023.08.06 20:42:44 INFO  time: Connected to build server in 2.28s
+2023.08.06 20:42:44 INFO  time: Connected to build server in 2.28s
+2023.08.06 20:42:44 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.06 20:42:44 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.06 20:42:44 INFO  time: indexed workspace in 0.21s
+2023.08.06 20:42:44 INFO  time: indexed workspace in 0.2s
+2023.08.06 20:42:44 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 0.602s)
+2023.08.06 20:42:44 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.06 20:42:44 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.06 20:42:44 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 0.821s)
+2023.08.06 20:42:44 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.06 20:42:44 INFO  time: compiled project_bd2c96d2de in 0.41s
+2023.08.06 20:42:44 INFO  time: compiled project_bd2c96d2de in 0.18s
+2023.08.06 20:42:44 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.06 20:42:44 INFO  time: compiled project_bd2c96d2de in 4ms
+2023.08.06 20:42:44 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.06 20:42:44 INFO  time: compiled project_bd2c96d2de in 0.1s
+2023.08.06 20:42:45 INFO  Refreshed build after change
+2023.08.06 20:42:44 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.06 20:42:44 INFO  time: compiled project_bd2c96d2de in 82ms
+2023.08.06 20:42:45 INFO  Refreshed build after change
+2023.08.06 20:42:53 INFO  Disconnecting from scala-cli session...
+2023.08.06 20:42:53 INFO  Shut down connection with build server.
+2023.08.06 20:42:53 INFO  Attempting to connect to the build server...
+2023.08.06 20:42:53 INFO  Running BSP server List(C:\Users\DILSHAN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, A:\UCSC\2nd year\Funtional Programing\tutorial_07\.scala-build\ide-options-v2.json, A:\UCSC\2nd year\Funtional Programing\tutorial_07)
+2023.08.06 20:42:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at A:\UCSC\2nd year\Funtional Programing\tutorial_07\.metals\bsp.trace.json or C:\Users\DILSHAN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.06 20:42:53 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:42:53 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 9.699s)
+2023.08.06 20:42:53 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:42:53 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 9.713s)
+2023.08.06 20:42:53 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:42:53 INFO  time: compiled project_bd2c96d2de in 58ms
+2023.08.06 20:42:53 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 23m 11.723s)
+2023.08.06 20:42:53 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:42:53 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:42:53 INFO  time: compiled project_bd2c96d2de in 78ms
+2023.08.06 20:42:55 INFO  time: Connected to build server in 2.09s
+2023.08.06 20:42:55 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.06 20:42:55 INFO  time: indexed workspace in 0.12s
+2023.08.06 20:42:56 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:42:56 INFO  time: compiled project_bd2c96d2de in 0.41s
+2023.08.06 20:42:56 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:42:56 INFO  time: compiled project_bd2c96d2de in 2ms
+2023.08.06 20:42:56 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:42:56 INFO  time: compiled project_bd2c96d2de in 84ms
+2023.08.06 20:42:56 INFO  Refreshed build after change
+2023.08.06 20:43:12 INFO  Disconnecting from scala-cli session...
+2023.08.06 20:43:12 INFO  Shut down connection with build server.
+2023.08.06 20:43:12 INFO  Attempting to connect to the build server...
+2023.08.06 20:43:12 INFO  Cancelling compilation on scala-cli server
+2023.08.06 20:43:12 INFO  Running BSP server List(C:\Users\DILSHAN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, A:\UCSC\2nd year\Funtional Programing\tutorial_07\.scala-build\ide-options-v2.json, A:\UCSC\2nd year\Funtional Programing\tutorial_07)
+2023.08.06 20:43:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at A:\UCSC\2nd year\Funtional Programing\tutorial_07\.metals\bsp.trace.json or C:\Users\DILSHAN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.06 20:43:12 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 17.038s)
+2023.08.06 20:43:12 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:43:12 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 17.077s)
+2023.08.06 20:43:12 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:43:12 INFO  time: compiled project_bd2c96d2de in 0.11s
+2023.08.06 20:43:12 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 23m 30.49s)
+2023.08.06 20:43:12 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:43:12 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:43:12 INFO  time: compiled project_bd2c96d2de in 0.12s
+2023.08.06 20:43:14 INFO  time: Connected to build server in 2.16s
+2023.08.06 20:43:14 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.06 20:43:14 INFO  time: indexed workspace in 0.12s
+2023.08.06 20:43:14 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:43:14 INFO  time: compiled project_bd2c96d2de in 0.38s
+2023.08.06 20:43:14 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:43:14 INFO  time: compiled project_bd2c96d2de in 3ms
+2023.08.06 20:43:14 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:43:14 INFO  time: compiled project_bd2c96d2de in 82ms
+2023.08.06 20:43:15 INFO  Refreshed build after change
+2023.08.06 20:44:08 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:44:08 INFO  time: compiled project_bd2c96d2de in 0.11s
+2023.08.06 20:44:28 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:44:28 INFO  time: compiled project_bd2c96d2de in 93ms
+2023.08.06 20:44:48 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:44:48 INFO  time: compiled project_bd2c96d2de in 66ms
+2023.08.06 20:44:52 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:44:52 INFO  time: compiled project_bd2c96d2de in 84ms
+2023.08.06 20:45:12 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:45:12 INFO  time: compiled project_bd2c96d2de in 65ms
+2023.08.06 20:45:13 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:45:13 INFO  time: compiled project_bd2c96d2de in 66ms
+2023.08.06 20:45:17 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:45:17 INFO  time: compiled project_bd2c96d2de in 62ms
+2023.08.06 20:45:17 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:45:17 INFO  time: compiled project_bd2c96d2de in 63ms
+2023.08.06 20:45:27 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:45:27 INFO  time: compiled project_bd2c96d2de in 68ms
+2023.08.06 20:45:33 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:45:33 INFO  time: compiled project_bd2c96d2de in 63ms
+2023.08.06 20:45:40 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:45:40 INFO  time: compiled project_bd2c96d2de in 67ms
+2023.08.06 20:45:49 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:45:49 INFO  time: compiled project_bd2c96d2de in 65ms
+2023.08.06 20:45:53 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:45:53 INFO  time: compiled project_bd2c96d2de in 61ms
+2023.08.06 20:45:58 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:45:58 INFO  time: compiled project_bd2c96d2de in 59ms
+2023.08.06 20:46:01 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:46:01 INFO  time: compiled project_bd2c96d2de in 72ms
+2023.08.06 20:46:02 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:46:02 INFO  time: compiled project_bd2c96d2de in 69ms
+2023.08.06 20:46:12 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:46:12 INFO  time: compiled project_bd2c96d2de in 63ms
+2023.08.06 20:46:16 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:46:16 INFO  time: compiled project_bd2c96d2de in 62ms
+2023.08.06 20:46:25 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:46:25 INFO  time: compiled project_bd2c96d2de in 63ms
+2023.08.06 20:46:28 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:46:28 INFO  time: compiled project_bd2c96d2de in 60ms
+2023.08.06 20:46:30 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:46:30 INFO  time: compiled project_bd2c96d2de in 56ms
+2023.08.06 20:54:30 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:54:30 INFO  time: compiled project_bd2c96d2de in 0.12s
+2023.08.06 20:54:31 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:54:31 INFO  time: compiled project_bd2c96d2de in 67ms
+2023.08.06 20:54:39 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:54:39 INFO  time: compiled project_bd2c96d2de in 69ms
+2023.08.06 20:55:19 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:55:19 INFO  time: compiled project_bd2c96d2de in 0.75s
+2023.08.06 20:55:20 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:55:20 INFO  time: compiled project_bd2c96d2de in 89ms
+2023.08.06 20:55:30 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:55:30 INFO  time: compiled project_bd2c96d2de in 0.56s
+2023.08.06 20:55:44 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:55:44 INFO  time: compiled project_bd2c96d2de in 71ms
+2023.08.06 20:55:44 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:55:44 INFO  time: compiled project_bd2c96d2de in 58ms
+2023.08.06 20:55:50 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:55:50 INFO  time: compiled project_bd2c96d2de in 66ms
+2023.08.06 20:55:53 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:55:53 INFO  time: compiled project_bd2c96d2de in 55ms
+Aug 06, 2023 8:55:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1110
+Aug 06, 2023 8:55:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1116
+2023.08.06 20:55:56 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:55:56 INFO  time: compiled project_bd2c96d2de in 65ms
+2023.08.06 20:55:57 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:55:57 INFO  time: compiled project_bd2c96d2de in 53ms
+2023.08.06 20:56:01 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:56:01 INFO  time: compiled project_bd2c96d2de in 67ms
+2023.08.06 20:56:03 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:56:03 INFO  time: compiled project_bd2c96d2de in 55ms
+2023.08.06 20:56:07 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:56:07 INFO  time: compiled project_bd2c96d2de in 86ms
+2023.08.06 20:56:08 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:56:08 INFO  time: compiled project_bd2c96d2de in 55ms
+2023.08.06 20:56:10 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:56:10 INFO  time: compiled project_bd2c96d2de in 58ms
+2023.08.06 20:56:12 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:56:12 INFO  time: compiled project_bd2c96d2de in 52ms
+2023.08.06 20:56:16 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:56:16 INFO  time: compiled project_bd2c96d2de in 61ms
+2023.08.06 20:56:17 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:56:17 INFO  time: compiled project_bd2c96d2de in 57ms
+2023.08.06 20:56:22 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:56:22 INFO  time: compiled project_bd2c96d2de in 79ms
+2023.08.06 20:56:27 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:56:27 INFO  time: compiled project_bd2c96d2de in 61ms
+2023.08.06 20:56:27 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:56:27 INFO  time: compiled project_bd2c96d2de in 61ms
+2023.08.06 20:56:33 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:56:33 INFO  time: compiled project_bd2c96d2de in 65ms
+2023.08.06 20:56:38 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:56:38 INFO  time: compiled project_bd2c96d2de in 63ms
+2023.08.06 20:56:45 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:56:45 INFO  time: compiled project_bd2c96d2de in 66ms
+2023.08.06 20:56:45 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:56:45 INFO  time: compiled project_bd2c96d2de in 64ms
+2023.08.06 20:57:43 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.06 20:57:43 INFO  time: compiled project_bd2c96d2de in 0.16s
+2023.08.06 20:58:31 INFO  Disconnecting from scala-cli session...
+2023.08.06 20:58:31 INFO  Shut down connection with build server.
+2023.08.06 20:58:31 INFO  Attempting to connect to the build server...
+2023.08.06 20:58:31 INFO  Cancelling compilation on scala-cli server
+2023.08.06 20:58:31 INFO  Running BSP server List(C:\Users\DILSHAN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, A:\UCSC\2nd year\Funtional Programing\tutorial_07\.scala-build\ide-options-v2.json, A:\UCSC\2nd year\Funtional Programing\tutorial_07)
+2023.08.06 20:58:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at A:\UCSC\2nd year\Funtional Programing\tutorial_07\.metals\bsp.trace.json or C:\Users\DILSHAN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.06 20:58:31 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 15m 47.085s)
+2023.08.06 20:58:31 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.06 20:58:31 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.06 20:58:31 INFO  time: compiled project_bd2c96d2de in 92ms
+2023.08.06 20:58:31 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 38m 49.136s)
+2023.08.06 20:58:31 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.06 20:58:31 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.06 20:58:31 INFO  time: compiled project_bd2c96d2de in 89ms
+2023.08.06 20:58:33 INFO  time: Connected to build server in 2.14s
+2023.08.06 20:58:33 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.06 20:58:33 INFO  time: indexed workspace in 0.16s
+2023.08.06 20:58:33 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.06 20:58:33 INFO  time: compiled project_bd2c96d2de in 0.3s
+2023.08.06 20:58:33 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.06 20:58:33 INFO  time: compiled project_bd2c96d2de in 2ms
+2023.08.06 20:58:33 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.06 20:58:33 INFO  time: compiled project_bd2c96d2de in 78ms
+2023.08.06 20:58:34 INFO  Refreshed build after change
+2023.08.06 22:09:55 INFO  Shutting down server
+2023.08.06 22:09:55 INFO  shutting down Metals
+2023.08.06 22:09:55 INFO  Shut down connection with build server.
+2023.08.06 22:09:56 INFO  Running BSP server List(C:\Users\DILSHAN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, A:\UCSC\2nd year\Funtional Programing\tutorial_07\.scala-build\ide-options-v2.json, A:\UCSC\2nd year\Funtional Programing\tutorial_07)
+2023.08.06 22:09:56 INFO  Running BSP server List(C:\Users\DILSHAN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, A:\UCSC\2nd year\Funtional Programing\tutorial_07\.scala-build\ide-options-v2.json, A:\UCSC\2nd year\Funtional Programing\tutorial_07)
+2023.08.06 22:09:55 INFO  Exiting server
+2023.08.06 22:09:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at A:\UCSC\2nd year\Funtional Programing\tutorial_07\.metals\bsp.trace.json or C:\Users\DILSHAN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.06 22:09:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at A:\UCSC\2nd year\Funtional Programing\tutorial_07\.metals\bsp.trace.json or C:\Users\DILSHAN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.07 22:35:17 INFO  Started: Metals version 1.0.0 in folders 'A:\UCSC\2nd year\Funtional Programing\tutorial_07' for client Visual Studio Code 1.81.0.
+Aug 07, 2023 10:35:17 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 07, 2023 10:35:18 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 07, 2023 10:35:18 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 07, 2023 10:35:18 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:A:\UCSC\2nd year\Funtional Programing\tutorial_07\.metals\metals (H2 2.1)
+Aug 07, 2023 10:35:18 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.028s)
+Aug 07, 2023 10:35:18 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 07, 2023 10:35:18 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.07 22:35:18 INFO  time: initialize in 0.87s
+2023.08.07 22:35:19 INFO  Attempting to connect to the build server...
+2023.08.07 22:35:19 INFO  Running BSP server List(C:\Users\DILSHAN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, A:\UCSC\2nd year\Funtional Programing\tutorial_07\.scala-build\ide-options-v2.json, A:\UCSC\2nd year\Funtional Programing\tutorial_07)
+2023.08.07 22:35:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at A:\UCSC\2nd year\Funtional Programing\tutorial_07\.metals\bsp.trace.json or C:\Users\DILSHAN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.07 22:35:19 WARN  No build session currently active to reload.
+2023.08.07 22:35:26 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.07 22:35:26 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.07 22:35:26 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.07 22:35:26 INFO  no build target found for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q3.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.07 22:35:28 INFO  time: code lens generation in 6.29s
+2023.08.07 22:35:28 INFO  time: code lens generation in 9.3s
+2023.08.07 22:35:29 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.07 22:35:29 INFO  BSP server: Starting compilation server
+2023.08.07 22:35:36 WARN  no build target for: A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q3.scala
+2023.08.07 22:35:39 ERROR Timeout waiting for 'build/initialize' response
+2023.08.07 22:35:39 WARN  Retrying connection to the build server scala-cli
+2023.08.07 22:35:39 INFO  Running BSP server List(C:\Users\DILSHAN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, A:\UCSC\2nd year\Funtional Programing\tutorial_07\.scala-build\ide-options-v2.json, A:\UCSC\2nd year\Funtional Programing\tutorial_07)
+2023.08.07 22:35:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at A:\UCSC\2nd year\Funtional Programing\tutorial_07\.metals\bsp.trace.json or C:\Users\DILSHAN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.07 22:35:44 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.07 22:35:44 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.07 22:35:44 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.07 22:35:44 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.07 22:35:48 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.07 22:35:48 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.07 22:35:48 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.07 22:35:48 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.07 22:35:48 INFO  time: Connected to build server in 29s
+2023.08.07 22:35:48 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.07 22:35:48 INFO  time: Imported build in 0.12s
+2023.08.07 22:35:49 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:35:50 INFO  time: indexed workspace in 1.23s
+2023.08.07 22:35:52 INFO  time: compiled project_bd2c96d2de in 2.83s
+2023.08.07 22:35:52 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:35:52 INFO  time: compiled project_bd2c96d2de in 0.33s
+2023.08.07 22:35:52 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:35:52 INFO  time: compiled project_bd2c96d2de in 0.28s
+2023.08.07 22:35:53 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:35:53 INFO  time: compiled project_bd2c96d2de in 0.27s
+2023.08.07 22:36:36 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:36:36 INFO  time: compiled project_bd2c96d2de in 0.26s
+2023.08.07 22:36:37 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:36:37 INFO  time: compiled project_bd2c96d2de in 0.21s
+2023.08.07 22:37:16 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:37:16 INFO  time: compiled project_bd2c96d2de in 0.22s
+2023.08.07 22:37:16 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:37:16 INFO  time: compiled project_bd2c96d2de in 0.19s
+2023.08.07 22:37:23 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:37:23 INFO  time: compiled project_bd2c96d2de in 0.21s
+2023.08.07 22:37:50 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:37:50 INFO  time: compiled project_bd2c96d2de in 0.19s
+2023.08.07 22:37:56 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:37:56 INFO  time: compiled project_bd2c96d2de in 0.24s
+2023.08.07 22:43:19 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:43:19 INFO  time: compiled project_bd2c96d2de in 0.21s
+2023.08.07 22:43:19 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:43:19 INFO  time: compiled project_bd2c96d2de in 0.17s
+2023.08.07 22:43:44 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:43:44 INFO  time: compiled project_bd2c96d2de in 0.16s
+2023.08.07 22:43:46 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:43:46 INFO  time: compiled project_bd2c96d2de in 0.14s
+2023.08.07 22:43:50 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:43:50 INFO  time: compiled project_bd2c96d2de in 0.2s
+2023.08.07 22:43:55 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:43:55 INFO  time: compiled project_bd2c96d2de in 0.12s
+2023.08.07 22:44:30 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:44:30 INFO  time: compiled project_bd2c96d2de in 0.11s
+2023.08.07 22:47:16 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:47:16 INFO  time: compiled project_bd2c96d2de in 0.24s
+2023.08.07 22:47:22 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:47:22 INFO  time: compiled project_bd2c96d2de in 0.11s
+2023.08.07 22:47:22 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:47:22 INFO  time: compiled project_bd2c96d2de in 88ms
+2023.08.07 22:47:25 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:47:25 INFO  time: compiled project_bd2c96d2de in 97ms
+2023.08.07 22:47:53 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:47:53 INFO  time: compiled project_bd2c96d2de in 91ms
+2023.08.07 22:47:55 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:47:57 INFO  time: compiled project_bd2c96d2de in 1.38s
+2023.08.07 22:48:04 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:48:04 INFO  time: compiled project_bd2c96d2de in 0.36s
+2023.08.07 22:48:06 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:48:06 INFO  time: compiled project_bd2c96d2de in 0.31s
+2023.08.07 22:50:49 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:50:49 INFO  time: compiled project_bd2c96d2de in 0.27s
+2023.08.07 22:51:07 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:51:07 INFO  time: compiled project_bd2c96d2de in 78ms
+2023.08.07 22:51:10 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:51:10 INFO  time: compiled project_bd2c96d2de in 66ms
+2023.08.07 22:51:12 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:51:12 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 15m 32.071s)
+2023.08.07 22:51:12 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:51:12 INFO  time: compiled project_bd2c96d2de in 63ms
+2023.08.07 22:51:13 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.07 22:51:13 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.07 22:51:13 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.07 22:51:13 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.07 22:51:13 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.07 22:51:14 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.07 22:51:24 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:51:24 INFO  time: compiled project_bd2c96d2de in 63ms
+2023.08.07 22:51:25 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q2.scala
+2023.08.07 22:51:26 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:51:26 INFO  time: compiled project_bd2c96d2de in 47ms
+2023.08.07 22:51:26 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q2.scala
+2023.08.07 22:51:26 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q2.scala
+2023.08.07 22:51:26 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q2.scala
+2023.08.07 22:51:26 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q2.scala
+2023.08.07 22:51:27 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:51:27 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q2.scala
+2023.08.07 22:51:27 INFO  time: compiled project_bd2c96d2de in 0.27s
+2023.08.07 22:51:32 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.07 22:51:37 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.07 22:51:40 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.07 22:51:43 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.07 22:51:48 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.07 22:52:07 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.07 22:52:29 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.07 22:52:43 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:52:43 INFO  time: compiled project_bd2c96d2de in 0.19s
+2023.08.07 22:52:44 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q3.scala
+2023.08.07 22:52:45 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:52:45 INFO  time: compiled project_bd2c96d2de in 73ms
+2023.08.07 22:52:45 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q3.scala
+2023.08.07 22:52:48 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q3.scala
+2023.08.07 22:52:49 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q3.scala
+2023.08.07 22:52:50 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:52:50 INFO  time: compiled project_bd2c96d2de in 0.26s
+2023.08.07 22:53:08 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:53:08 INFO  time: compiled project_bd2c96d2de in 0.26s
+2023.08.07 22:53:17 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.07 22:53:44 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.07 22:53:45 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.07 22:54:12 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala

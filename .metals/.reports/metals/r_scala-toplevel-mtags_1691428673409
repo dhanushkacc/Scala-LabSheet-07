@@ -1,0 +1,14 @@
+id: file:///A:/UCSC/2nd%20year/Funtional%20Programing/tutorial_07/Q2.scala:[8..15) in Input.VirtualFile("file:///A:/UCSC/2nd%20year/Funtional%20Programing/tutorial_07/Q2.scala", "object  extends App {
+
+  def calculateSquare(list: List[Int]): List[Int] = {
+    list.map(item => item * item)
+  }
+
+  val inputList = List(1, 2, 3, 4, 5)
+  val outputList = calculateSquare(inputList)
+  println(outputList)
+}
+")
+file:///A:/UCSC/2nd%20year/Funtional%20Programing/tutorial_07/Q2.scala:1: error: expected identifier; obtained extends
+object  extends App {
+        ^
