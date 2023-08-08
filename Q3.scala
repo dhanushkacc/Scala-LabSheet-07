@@ -11,7 +11,10 @@ def isPrime(p: Int, n: Int): Boolean = n match {
 }
 
 def filterPrime(list: List[Int]): List[Int] = {
-  list.filter(isPrime(_, 1))
+
+  val filterPrime: List[Int] => List[Int] = list => list.filter(isPrime(_, 1))
+
+  filterPrime(list)
 }
 
 object Q3 extends App {

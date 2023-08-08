@@ -541,3 +541,79 @@ INFO: Schema "PUBLIC" is up to date. No migration necessary.
 2023.08.07 22:53:44 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
 2023.08.07 22:53:45 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
 2023.08.07 22:54:12 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.07 22:57:42 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.07 23:00:37 INFO  Shutting down server
+2023.08.07 23:00:37 INFO  shutting down Metals
+2023.08.07 23:00:37 INFO  Shut down connection with build server.
+2023.08.07 23:00:37 INFO  Exiting server
+2023.08.08 06:49:47 INFO  Started: Metals version 1.0.0 in folders 'A:\UCSC\2nd year\Funtional Programing\tutorial_07' for client Visual Studio Code 1.81.0.
+Aug 08, 2023 6:49:47 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 08, 2023 6:49:47 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 08, 2023 6:49:47 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 08, 2023 6:49:47 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:A:\UCSC\2nd year\Funtional Programing\tutorial_07\.metals\metals (H2 2.1)
+Aug 08, 2023 6:49:47 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.025s)
+Aug 08, 2023 6:49:48 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 08, 2023 6:49:48 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.08 06:49:48 INFO  time: initialize in 0.73s
+2023.08.08 06:49:49 INFO  Attempting to connect to the build server...
+2023.08.08 06:49:49 INFO  Running BSP server List(C:\Users\DILSHAN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, A:\UCSC\2nd year\Funtional Programing\tutorial_07\.scala-build\ide-options-v2.json, A:\UCSC\2nd year\Funtional Programing\tutorial_07)
+2023.08.08 06:49:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at A:\UCSC\2nd year\Funtional Programing\tutorial_07\.metals\bsp.trace.json or C:\Users\DILSHAN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.08 06:49:49 WARN  No build session currently active to reload.
+2023.08.08 06:49:50 INFO  BSP server: Starting compilation server
+2023.08.08 06:49:51 INFO  no build target found for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q3.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.08 06:49:54 INFO  time: code lens generation in 5.35s
+2023.08.08 06:49:58 INFO  time: Connected to build server in 9.18s
+2023.08.08 06:49:58 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.08 06:49:58 INFO  time: Imported build in 0.16s
+2023.08.08 06:49:59 INFO  time: indexed workspace in 0.71s
+Aug 08, 2023 6:51:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+2023.08.08 06:53:17 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.08 06:59:16 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.08 06:59:16 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 9m 18.7s)
+2023.08.08 06:59:16 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.08 06:59:19 INFO  time: compiled project_bd2c96d2de in 2.69s
+2023.08.08 06:59:20 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.08 06:59:20 INFO  time: compiled project_bd2c96d2de in 0.48s
+2023.08.08 06:59:23 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.08 06:59:23 INFO  time: compiled project_bd2c96d2de in 0.25s
+2023.08.08 06:59:58 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.08 07:00:20 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.08 07:00:20 INFO  time: compiled project_bd2c96d2de in 0.12s
+2023.08.08 07:00:24 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.08 07:00:24 INFO  time: compiled project_bd2c96d2de in 0.41s
+2023.08.08 07:00:27 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.08 07:00:27 INFO  time: compiled project_bd2c96d2de in 0.45s
+2023.08.08 07:02:06 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.08 07:03:20 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.08 07:03:21 INFO  time: compiled project_bd2c96d2de in 1.3s
+2023.08.08 07:03:22 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q3.scala
+2023.08.08 07:03:25 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q3.scala
+2023.08.08 07:03:26 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.08 07:03:26 INFO  time: compiled project_bd2c96d2de in 0.46s
+2023.08.08 07:03:27 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q3.scala
+2023.08.08 07:04:02 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q1.scala
+2023.08.08 07:04:11 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q3.scala
+2023.08.08 07:04:16 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q3.scala
+2023.08.08 07:04:17 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q3.scala
+2023.08.08 07:04:18 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q3.scala
+2023.08.08 07:04:18 WARN  Could not load snapshot text for A:\UCSC\2nd year\Funtional Programing\tutorial_07\Q3.scala
+2023.08.08 07:04:18 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.08 07:04:18 INFO  time: compiled project_bd2c96d2de in 0.41s
+2023.08.08 07:04:21 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.08 07:04:21 INFO  time: compiled project_bd2c96d2de in 0.13s
+2023.08.08 07:04:22 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.08 07:04:22 INFO  time: compiled project_bd2c96d2de in 0.33s
+2023.08.08 07:04:29 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.08 07:04:29 INFO  time: compiled project_bd2c96d2de in 0.29s
+2023.08.08 07:05:41 INFO  Shutting down server
+2023.08.08 07:05:41 INFO  shutting down Metals
+2023.08.08 07:05:41 INFO  Shut down connection with build server.
+2023.08.08 07:05:41 INFO  Exiting server
